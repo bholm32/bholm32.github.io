@@ -1,2 +1,3 @@
 # bholm32.github.io
-template
+
+<a href="/pkl/index.html">silahkan klik disini untuk melihat<a>
