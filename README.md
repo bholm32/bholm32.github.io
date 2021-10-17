@@ -1,19 +1,7 @@
 # bholm32.github.io
 <DOCTYPE html>
   <html>
-    <head>
-      <title>
-        github syarif
-      </title>
-      <style>
-        body{
-        background-color= #00FF00;
-        }
-        
-        
-        
-      </style>
-    </head>
+ 
 <h1>ini adalah web github pertama saya<h1>
 <a href="/pkl/index.html">silahkan klik disini untuk melihat<a>
   </html>
