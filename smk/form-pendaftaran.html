@@ -50,57 +50,50 @@
   
   
   </div>
-<div class="form">
-	<h1>Formulir Pendaftaran Siswa</h1>
-
-
-<form action="https://formspree.io/f/mzbyqgrv" method="post">
-    <label for="first_name">First name:</label>
-    <input type="text" id="first_name" name="first_name"> 
-
-    <label for="last_name">Last name:</label>
-    <input type="text" id="last_name" name="last_name"> <br>
-
-    <label for="nomor_hp">nomor hp:</label>
-    <input type="text" id="nomor_hp" name="nomor_hp"> <br>
-    
-    <label for="Email">Email:</label>
-    <input type="text" id="Email" name="Email"> <br>
-
-    <label for="NIK">NIK:</label>
-    <input type="text" id="NIK" name="NIK"> <br>
-
-    <label for="NIS">NIS:</label>
-    <input type="text" id="NIS" name="NIS"> <br>
-  
-<br>
-<p>Gender :</p>
-  
-    <input type="checkbox" id="Male" name="Male" value="Male">
-  <label for="Male">Male</label><br>
-  <input type="checkbox" id="Female" name="Female" value="Female">
-  <label for="Female">Female</label><br>
-  <input type="checkbox" id="Other" name="Other" value="Other">
-  <label for="Other">Other</label><br>
-  
-
-
-<p>Agama:</p>
-  
-    <input type="checkbox" id="islam" name="islam" value="islam">
-  <label for="islam">islam</label><br>
-  <input type="checkbox" id="kristen" name="kristen" value="kristen">
-  <label for="kristen">kristen</label><br>
-  <input type="checkbox" id="protestan" name="protestan" value="protestan">
-  <label for="protestan">protestan</label><br>
-  <input type="checkbox" id="hindu" name="hindu" value="hindu">
-  <label for="hindu">hindu</label><br>
-  <input type="checkbox" id="budha" name="budha" value="budha">
-  <label for="budha">budha</label><br>
-  <br><br>
-
-        <a href="welcome.html" target="_blank"><input type="submit"></a>
-    </form>
+<form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </div>
+</form>
 
 </div>
 </body>
