@@ -1,362 +1,427 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>hehe.com</title>
-   <style type="text/css">
-         html,body{height: 100%;}
-         .bg-utama{
-         background-image: url(background.jpg);
-         background-size: contain;
-         background-position: center;
-         text-align: center;
-         height: 100%;
-         width: 100%;
-         display: table;
-         vertical-align: middle;
-         }
-         h1,p{color: white;}
-         .konten-ditengah {
-         display: table-cell;
-         vertical-align: middle;
+    <title>Sayurku.com</title>
 
-         }
-    #warna{
-        text-align: center;
-    }
-    body{
-        background-color: #3D0B0B;
-    }
-    footer{
-        background-color: black;
-        color: white;
-    }
+</head>
 
-      </style>
-  </head>
-  <body>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="$">$Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Disabled</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-<div class="bg-utama">
-    <div class="konten-ditengah">
-    <h1>selamat datang ditemplate ini jika sudah tau mau ngapain silahkan isi saya masih bingung soalnya</h1>
-</div>
-</div>
-<div class="container bg-secondary" id="warna">
-    <br><br><br>
-    <h4>ABOUT US</h4>
-    <br><br>
-    <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h6>
-    <br><br><br>
-    <h4>CABANG KITA</h4>
-    <br><br><br>
-
-    <div class="row">
-
-    <div class="col-md-4 col-sm-12 mb-3">
-        <div class="card">
-            <img src="toko1.jpg" class="card-img-top" alt="...">
-
-            <div class="card-body">
-                <div class="card-title"><h4>JONGGOL</h4></div>
-                Selamat datang di tutorial bootstrap 4 lengkap dari paling dasar sampai mahir, untuk pemula sampai expert.
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()" id="logo"><i class="fa fa-shopping-cart"
+                    style="font-size:48px;color:red"></i>Sayurku.com</span>
+            <h3></h3>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+                <ul class="nav nav-pills ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tentang">TENTANG KAMI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cabang">CABANG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produk">PRODUK KAMI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">TEAM KAMI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimoni">TESTIMONI</a>
+                    </li>
+                </ul>
             </div>
-
-            <div class="card-footer">
-                <a href="#" class="card-link">Lihat</a>
-            </div>
-        </div>
+        </nav>
     </div>
 
-    <div class="col-md-4 col-sm-6 mb-3">
-        <div class="card">
-            <img src="toko2.jpg" class="card-img-top" alt="...">
-
-            <div class="card-body">
-                <div class="card-title"><h4>ACEH</h4></div>
-                Selamat datang di tutorial bootstrap 4 lengkap dari paling dasar sampai mahir, untuk pemula sampai expert.
-            </div>
-
-            <div class="card-footer">
-                <a href="#" class="card-link">Lihat</a>
-            </div>
+    <div class="bg-utama" id="home">
+        <div class="konten-ditengah">
+            <h1>selamat datang di website sayurku.com </h1>
+            <h2>disini anda dapat belanja berbagai sayuran segar dan dapat langsung diantar kerumah</h2>
+            <a href="menu.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Belanja
+                sekarang</a>
+            <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true"></a>
         </div>
     </div>
-
-    <div class="col-md-4 col-sm-6 mb-3">
-        <div class="card">
-            <img src="toko3.jpg" class="card-img-top" alt="...">
-
-            <div class="card-body">
-                <div class="card-title"><h4>BOGAY</h4></div>
-                Selamat datang di tutorial bootstrap 4 lengkap dari paling dasar sampai mahir, untuk pemula sampai expert.
-            </div>
-
-            <div class="card-footer">
-                <a href="#" class="card-link">Lihat</a>
-            </div>
-        </div>
-    </div>
-</div>
-<br><br><br><br>
-<h4>OUR PRODUCT</h4>
-<br><br>
-<div class="row">
-
-    <div class="col-md-4 col-sm-12 mb-3">
-        <div class="card">
-            <img src="toko1.jpg" class="card-img-top" alt="...">
-
-            <div class="card-body">
-                <div class="card-title"><h4>JONGGOL</h4></div>
-                Selamat datang di tutorial bootstrap 4 lengkap dari paling dasar sampai mahir, untuk pemula sampai expert.
-            </div>
-
-            <div class="card-footer">
-                <a href="#" class="card-link">Lihat</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-4 col-sm-6 mb-3">
-        <div class="card">
-            <img src="toko2.jpg" class="card-img-top" alt="...">
-
-            <div class="card-body">
-                <div class="card-title"><h4>ACEH</h4></div>
-                Selamat datang di tutorial bootstrap 4 lengkap dari paling dasar sampai mahir, untuk pemula sampai expert.
-            </div>
-
-            <div class="card-footer">
-                <a href="#" class="card-link">Lihat</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-4 col-sm-6 mb-3">
-        <div class="card">
-            <img src="toko3.jpg" class="card-img-top" alt="...">
-
-            <div class="card-body">
-                <div class="card-title"><h4>BOGAY</h4></div>
-                Selamat datang di tutorial bootstrap 4 lengkap dari paling dasar sampai mahir, untuk pemula sampai expert.
-            </div>
-
-            <div class="card-footer">
-                <a href="#" class="card-link">Lihat</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4 col-sm-6 mb-3">
-        <div class="card">
-            <img src="toko2.jpg" class="card-img-top" alt="...">
-
-            <div class="card-body">
-                <div class="card-title"><h4>ACEH</h4></div>
-                Selamat datang di tutorial bootstrap 4 lengkap dari paling dasar sampai mahir, untuk pemula sampai expert.
-            </div>
-
-            <div class="card-footer">
-                <a href="#" class="card-link">Lihat</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4 col-sm-6 mb-3">
-        <div class="card">
-            <img src="toko2.jpg" class="card-img-top" alt="...">
-
-            <div class="card-body">
-                <div class="card-title"><h4>ACEH</h4></div>
-                Selamat datang di tutorial bootstrap 4 lengkap dari paling dasar sampai mahir, untuk pemula sampai expert.
-            </div>
-
-            <div class="card-footer">
-                <a href="#" class="card-link">Lihat</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4 col-sm-6 mb-3">
-        <div class="card">
-            <img src="toko2.jpg" class="card-img-top" alt="...">
-
-            <div class="card-body">
-                <div class="card-title"><h4>ACEH</h4></div>
-                Selamat datang di tutorial bootstrap 4 lengkap dari paling dasar sampai mahir, untuk pemula sampai expert.
-            </div>
-
-            <div class="card-footer">
-                <a href="#" class="card-link">Rp.200.000,00 <div class="btn-group" role="group" aria-label="Basic example">
-                     
-                     <button type="button" class="btn btn-primary">detail</button>
-                    <button type="button" class="btn btn-danger">beli</button>
-                     </div>           
-               </a>
-            </div>
-        </div>
-    </div>
-</div>
-<br><br><br><br>
-<h4>TEAM KAMI</h4>
- <div class="row">
-
-    <div class="col-md-4 col-sm-12 mb-3">
-        <div class="card">
-            <img src="toko1.jpg" class="card-img-top" alt="...">
-
-            <div class="card-body">
-                <div class="card-title"><h4>JONGGOL</h4></div>
-                Selamat datang di tutorial bootstrap 4 lengkap dari paling dasar sampai mahir, untuk pemula sampai expert.
-            </div>
-
-            <div class="card-footer">
-                <a href="#" class="card-link">Lihat</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-4 col-sm-6 mb-3">
-        <div class="card">
-            <img src="toko2.jpg" class="card-img-top" alt="...">
-
-            <div class="card-body">
-                <div class="card-title"><h4>ACEH</h4></div>
-                Selamat datang di tutorial bootstrap 4 lengkap dari paling dasar sampai mahir, untuk pemula sampai expert.
-            </div>
-
-            <div class="card-footer">
-                <a href="#" class="card-link">Lihat</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-4 col-sm-6 mb-3">
-        <div class="card">
-            <img src="toko3.jpg" class="card-img-top" alt="...">
-
-            <div class="card-body">
-                <div class="card-title"><h4>BOGAY</h4></div>
-                Selamat datang di tutorial bootstrap 4 lengkap dari paling dasar sampai mahir, untuk pemula sampai expert.
-            </div>
-
-            <div class="card-footer">
-                <a href="#" class="card-link">Lihat</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4 col-sm-6 mb-3">
-        <div class="card">
-            <img src="toko2.jpg" class="card-img-top" alt="...">
-
-            <div class="card-body">
-                <div class="card-title"><h4>ACEH</h4></div>
-                Selamat datang di tutorial bootstrap 4 lengkap dari paling dasar sampai mahir, untuk pemula sampai expert.
-            </div>
-
-            <div class="card-footer">
-                <a href="#" class="card-link">Lihat</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4 col-sm-6 mb-3">
-        <div class="card">
-            <img src="toko2.jpg" class="card-img-top" alt="...">
-
-            <div class="card-body">
-                <div class="card-title"><h4>ACEH</h4></div>
-                Selamat datang di tutorial bootstrap 4 lengkap dari paling dasar sampai mahir, untuk pemula sampai expert.
-            </div>
-
-            <div class="card-footer">
-                <a href="#" class="card-link">Lihat</a>
-            </div>
-        </div>
-    </div>
-</div>
-<br><br><br>
-<h4>TESTIMONI</h4>
-
-<div class="TESTIMONI">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-<footer>
     <div class="container">
-  <div class="row">
-    <div class="col-sm">
-      One of three columns
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <div class="bg-light" id="tentang">
+            <br><br><br>
+            <div>
+                <h4>ABOUT US</h4>
+                <br><br>
+                <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Exepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Nihil vero ea dignissimos minima fugiat beatae exercitationem animi
+                    praesentium? Aspernatur dignissimos ratione nisi illum blanditiis inventore dolorem nesciunt, magnam
+                    soluta vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos itaque ipsam
+                    libero,
+                    illo facere sint consequatur suscipit velit. Itaque quis voluptate deleniti soluta incidunt
+                    consectetur
+                    neque tempore assumenda delectus voluptatibus!</h6>
+            </div>
+            <br><br><br>
+            <div class="container">
+                <h4 id="cabang">CABANG KITA</h4>
+                <br><br><br>
+
+                <div class="row">
+
+                    <div class="col-md-4 col-sm-12 mb-3">
+                        <div class="card">
+                            <img src="toko1.jpg" class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4>Villa mutiara cinere</h4>
+                                </div>
+
+                            </div>
+
+                            <div class="card-footer">
+                                <a href="https://www.google.com/maps/place/ASSA+HOUSE/@-6.3721403,106.7926768,19z/data=!3m1!4b1!4m5!3m4!1s0x2e69ef68a1ec2a15:0xbcd9d6b1dc088127!8m2!3d-6.3721538!4d106.7932215"
+                                    class="card-link">Lihat Lokasi</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 mb-3">
+                        <div class="card">
+                            <img src="toko2.jpg" class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4>jalan r sanim</h4>
+                                </div>
+
+                            </div>
+
+                            <div class="card-footer">
+                                <a href="https://www.google.com/maps/place/Toko+Sayur+Ramdani/@-6.3700016,106.7989651,19z/data=!3m1!4b1!4m5!3m4!1s0x2e69efc255eac1cb:0x5fd89523916a18b3!8m2!3d-6.3700057!4d106.7995052"
+                                    class="card-link">Lihat Lokasi</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 mb-3">
+                        <div class="card">
+                            <img src="toko3.jpg" class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4>DEKAT perumahan mulya asri</h4>
+                                </div>
+
+                            </div>
+
+                            <div class="card-footer">
+                                <a href="https://www.google.com/maps/place/Depo+Mutiara+Tirta/@-6.37344,106.8008624,21z/data=!4m12!1m6!3m5!1s0x2e69efc255eac1cb:0x5fd89523916a18b3!2sToko+Sayur+Ramdani!8m2!3d-6.3700057!4d106.7995052!3m4!1s0x2e69eeb0cf36ff53:0x8595e9eeb45f2492!8m2!3d-6.3731569!4d106.8007508"
+                                    class="card-link">Lihat Lokasi</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br>
+                <h4 id="produk">OUR PRODUCT</h4>
+                <br><br>
+                <div class="row">
+
+                    <div class="col-md-4 col-sm-12 mb-3">
+                        <div class="card">
+                            <img src="wortel.jpeg" class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4>WORTEL</h4>
+                                </div>
+
+                            </div>
+
+                            <div class="card-footer">
+                                <a href="#" class="card-link">Lihat</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 mb-3">
+                        <div class="card">
+                            <img src="sawih.jpeg" class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4>SAWI HIJAU</h4>
+                                </div>
+
+                            </div>
+
+                            <div class="card-footer">
+                                <a href="#" class="card-link">Lihat</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 mb-3">
+                        <div class="card">
+                            <img src="sawip.jpeg" class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4>SAWI PUTIH</h4>
+                                </div>
+
+                            </div>
+
+                            <div class="card-footer">
+                                <a href="#" class="card-link">Lihat</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-3">
+                        <div class="card">
+                            <img src="brokoli.jpeg" class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4>BROKOLI</h4>
+                                </div>
+
+                            </div>
+
+                            <div class="card-footer">
+                                <a href="#" class="card-link">Lihat</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-3">
+                        <div class="card">
+                            <img src="kentang.jpg" class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4>KENTANG</h4>
+                                </div>
+
+                            </div>
+
+                            <div class="card-footer">
+                                <a href="#" class="card-link">Lihat</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-3">
+                        <div class="card">
+                            <img src="cabe2.jpeg" class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4>cabe keriting</h4>
+                                </div>
+
+                            </div>
+
+                            <div class="card-footer">
+                                <a href="#" class="card-link">Rp.50.000,00/kg
+                                    <button class="bg-danger">beli sekarang</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <button type="button" class="btn btn-primary">lihat sayur lainnnya</button>
+                <br><br><br><br>
+                <h4 id="team">TEAM KAMI</h4>
+                <br><br><br><br><br>
+                <div class="row">
+
+                    <div class="col-md-4 col-sm-6 mb-3">
+                        <div class="card">
+                            <img src="bule1.jpeg" class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4 style="text-decoration: none; color: black;">bule 1</h4>
+                                </div>
+                                <h6>
+                                </h6>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 mb-3">
+                        <div class="card">
+                            <img src="bule1.jpeg" class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4>bule 2</h4>
+                                </div>
+                                <h6>
+
+                                </h6>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 mb-3">
+                        <div class="card">
+                            <img src="bule1.jpeg" class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4>bule 3</h4>
+                                </div>
+                                <h6>
+                                </h6>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <br><br><br>
+                <h4 id="testimoni">TESTIMONI</h4>
+
+                <div class="TESTIMONI" style="text-decoration: none; color: #000;">
+                    <div class="container">
+                        <br>
+                        <h3 id="footer"> Sayurku.com</h3>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm">
+                                <img src="bule2.jpeg" alt="">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nostrum deleniti
+                                eveniet, iste quidem sunt. Est, neque vel nisi distinctio, adipisci optio dolorem sunt
+                                quasi qui facere, tempora eveniet. Debitis.
+                            </div>
+                            <div class="col-sm">
+                                <img src="bule2.jpeg" alt="">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                            <div class="col-sm">
+                                <img src="bule2.jpeg" alt="">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                            <div class="col-sm">
+                                <img src="bule2.jpeg" alt="">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                        </div>
+                    </div>
+                    <br><br><br><br><br><br><br><br><br>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-sm">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-    <div class="col-sm">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-  </div>
-</div>
-</footer>
-  </body>
+
+
+
+
+    <footer>
+        <div class="container">
+            <br>
+            <h3 id="footer"> Sayurku.com</h3>
+            <br>
+            <div class="row">
+                <div class="col-sm">
+                    One of three columns
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+                <div class="col-sm">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+                <div class="col-sm">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+                <div class="col-sm">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+
 </html>
