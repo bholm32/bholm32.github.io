@@ -3,7 +3,7 @@ body {
     height: 100%;
 }
 
-.bg-utama {
+#bg-utama {
     background-image: url(background3.jpg);
     background-size: cover;
     background-position: center;
@@ -101,4 +101,20 @@ body {
     .sidenav a {
         font-size: 18px;
     }
+}
+/* mengatur warna backgroud dan padding pada tag body bagian atas agar form tidak menempel diatas */
+body{
+    
+    padding-top: 10vh;  
+}
+ 
+/* mengatur warna backgroud form */
+form{
+    background: #fff;
+}
+ 
+/* mengatur border dan padding class form-container */
+.form-container{
+    border-radius: 10px;
+    padding: 30px;
 }
